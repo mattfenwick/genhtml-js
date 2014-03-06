@@ -34,6 +34,8 @@ Node.prototype.serialize = function() {
 
 function td() {return new Node('td', Array.prototype.slice.call(arguments));}
 function th() {return new Node('th', Array.prototype.slice.call(arguments));}
+function tr() {return new Node('tr', Array.prototype.slice.call(arguments));}
+function table() {return new Node('table', Array.prototype.slice.call(arguments));}
 
 module.exports = {
     'Node': Node,
