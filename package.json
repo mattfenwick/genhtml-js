@@ -1,0 +1,26 @@
+{
+  "name": "genhtml-js",
+  "version": "0.0.1",
+  "description": "pure Javascript HTML generation and templating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattfenwick/genhtml-js.git"
+  },
+  "keywords": [
+    "HTML",
+    "EDSL",
+    "template"
+  ],
+  "author": "Matt Fenwick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattfenwick/genhtml-js/issues"
+  },
+  "homepage": "https://github.com/mattfenwick/genhtml-js",
+  "dependencies": {
+  }
+}

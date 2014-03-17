@@ -1,4 +1,4 @@
-js-html
+genhtml-js
 =======
 
 ## Description ##
