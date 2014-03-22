@@ -1,9 +1,9 @@
-var modules = ['html', 'model', 'serialize'];
+'use strict';
 
-var obj = {};
-modules.map(function(n) {
-    obj[n] = require('./lib/' + n + '.js');
-});
 
-module.exports = obj;
+module.exports = {
+    'html'     : require('./lib/html.js')     ,
+    'model'    : require('./lib/model.js')    ,
+    'serialize': require('./lib/serialize.js')
+};
 
