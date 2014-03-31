@@ -11,7 +11,7 @@ var module = describe,
 module("model", function() {
 
     test('Element', function() {
-        blar;
+        //blar;
     });
     
     test('Comment', function() {
@@ -24,9 +24,16 @@ module("model", function() {
     });
     
     test('Attribute -- needs non-empty string key', function() {
-        assert.doesNotThrow(function() {new M.Attribute('abc', 123);});
-        assert.throws(function() {new M.Attribute('', 123);});
-        assert.throws(function() {new M.Attribute({}, 123);});
+        assert.doesNotThrow(function() {new M.Attribute('abc', '123');});
+        assert.throws(function() {new M.Attribute('', '123');});
+        assert.throws(function() {new M.Attribute({}, '123');});
+    });
+    
+    test('Attribute value -- string or null', function() {
+        assert.doesNotThrow(function() {new M.Attribute('abc', 'def');});
+        assert.doesNotThrow(function() {new M.Attribute('abc', null);});
+        assert.throws(function() {new M.Attribute('abc', 123);});
+        assert.throws(function() {new M.Attribute('abc');});
     });
     
     test("no duplicate attributes", function() {
@@ -40,7 +47,7 @@ module("model", function() {
     });
     
     test('Text', function() {
-        dar;
+        //dar;
     });
 
 });
