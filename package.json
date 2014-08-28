@@ -1,6 +1,6 @@
 {
   "name": "genhtml-js",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "pure Javascript HTML generation and templating",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
     "url": "https://github.com/mattfenwick/genhtml-js/issues"
   },
   "homepage": "https://github.com/mattfenwick/genhtml-js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "0.4.4",
     "grunt-cli": "0.1.13",
